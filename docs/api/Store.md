@@ -1,7 +1,7 @@
 # Store
 
 Store 就是用来维持应用所有的 [state 树](../Glossary.md#state) 的一个对象。
-改变 store 内 state 的惟一途径是对它 dispatch 一个 [action](../Glossary.md#action)。
+改变 store 内 state 的唯一途径是对它 dispatch 一个 [action](../Glossary.md#action)。
 
 Store 不是类。它只是有几个方法的对象。
 要创建它，只需要把根部的 [reducing 函数](../Glossary.md#reducer) 传递给 [`createStore`](createStore.md)。
